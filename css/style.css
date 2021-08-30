@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: var(--BGcolor);
+  }
+  /* HEADER */
+  header{
+    width: 100%;
+  }
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__logo{
+    width: 125px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .header__logo img{
+    width: 100%;
+    height: 100%;
+  }
+  .header__list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .header__list .list__item{
+    margin: 0 10px;
+  }
+  .header__list .list__item:nth-child(6){
+    margin-left: 120px;
+  }
+  .header__listMobile{
+    display: none;
+  }
+  .overlay{
+    display: none;
+  }
+  .header__btnMobile{
+    display: none;
+  }
+  /* BEST APP */
+  .bestApp .row{
+    justify-content: space-around;
+  }
+  .besApp__title{
+    
+    margin-top: 210px;
+  }
+  .description___editorHeader{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 360px;
+    padding: 10px 50px 10px 0;
+    background-color: var(--gray);
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--black);
+  }
+  .editorHeader__logo{
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    line-height: 36px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .besApp__btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .demo{
+    margin-left: 30px;
+    color: var(--blue);
+    cursor: pointer;
+  }
+  .bestApp__background{
+    background-image: url('/img/39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bestApp__img img{
+    width: 100%;
+  }
+  /* Trust By Companies */
+  .trustByCompanies__title{
+    text-align: center;
+  }
+  .trustByCompanies .row{
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trustByCompanies p{
+    margin: 10px 0px 30px 0px;
+  }
+  .trustByCompanies img{
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  /* anwesomeApps */
+  .anwesomeApps .row{
+    justify-content: center;
+    align-items: center;
+  }
+  .anwesomeApps__title p{
+    margin-bottom: 80px;
+  }
+  .anwesomeApps__item{
+    display: flex;
+  }
+  .category__item{
+    display: flex;
+    align-items: center;
+  }
+  /* smartJackpots */
+  .designedAndBuilt{
+    border-bottom: 1px solid var(--borderColor);
+  }
+  .smartJackpots .row{
+    justify-content: center;
+  }
+.smartJackpots h2{
+  padding-right: 150px;
+  border-right: 1px solid var(--borderColor);
+}
+.smartJackpots__row1{
+  margin-bottom: 115px;
+}
+/* designedAndBuilt */
+.designedAndBuilt .row{
+  justify-content: space-evenly;
+}
+.designedAndBuilt__description{
+  margin-top: 150px;
+}/* reasonChooseApp */
+.reasonChooseApp .row{
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.reasonChooseApp__title{
+  text-align: center;
+}
+.reasonChooseApp .circle{
+  margin: 0 auto;
+}
+.reasonChooseApp__content{
+  padding: 0 30px;
+}
+/* ultimateFeatreus */
+
+.ultimateFeatures__description{
+  padding-left: 170px;
+}
+/* getAwesomeFeatures */
+.getAwesomeFeatures{
+  border-bottom: 1px solid var(--boderColor2);
+}
+.getAwesomeFeatures .row{
+  justify-content: center;
+  text-align: center;
+}
+.getAwesomeFeatures .btn{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.getAwesomeFeatures__mode{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.mode__list{
+  display: flex;
+  border: 1px solid var(--boderColor2);
+  border-radius: 20px;
+}
+.mode__item{
+  padding: 10px 30px;
+  border-radius: 30px;
+  position: relative;
+  width: 136px;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+.mode__monthly::before{
+  content: "";
+  display: block;
+  width: var(--width100);
+  height: 100%;
+  background-color: var(--blue);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  transition: transform .5s linear;
+  transform: translateX(100%);
+  cursor: pointer;
+}
+.mode__monthly.active::before{
+  transform: translateX(0%);
+}
+.mode__monthly{
+  color: var(--colorText);
+  font-weight: 600;
+}
+.mode__monthly.active{
+  color: var(--white);
+}
+.mode__annually{
+  color: var(--colorText);
+}
+.mode__annually.active{
+  color: var(--white);
+}
+.businessClass{
+  padding: 0 20px;
+}
+.businessClass__title{
+  background-image: linear-gradient(#fefefe, #f5f7f9);
+}
+.businessClass__title span, .proMaster__title span{
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+}
+.businessClass.active{
+  border: 1px solid #ffff;
+  box-shadow: 2px 2px 10px #888888;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.proMaster.active{
+  border: 1px solid #ffff;
+  box-shadow: 2px 2px 10px #888888;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.proMaster, .businessClass{
+  border: 2px solid #ebebeb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+.proMaster__footer{
+  margin-bottom: 20px;
+}
+/* meetClient */
+.meetClient__description{
+  padding-left: 50px;
+}
+.meetClient__description h2, .meetClient__description h3{
+  color: #242f51;
+}
+.meetClient__title{
+  width: 75%;
+}
+.meetClient__star{
+  display: flex;
+  margin-bottom: 5px;
+}
+.meetClient__star i{
+  margin-right: 15px;
+  color: var(--yellow);
+  cursor: pointer;
+}
+.meetClient__author{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.author__infor{
+  display: flex;
+}
+.author__img{
+  margin-right: 30px;
+}
+.node{
+  display: flex;
+}
+.node__left,.node__right{
+  width: 52px;
+  height: 52px;
+  padding: 20px;
+  position: relative;
+  border: 2px solid #e7e7e7;
+  margin: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.node__left{
+  color: #e7e7e7;
+  font-weight: bold;
+}
+.node__right{
+  color: var(--blue);
+}
+.node__left::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  border-right: 1px solid #e7e7e7;
+  top: 50%;
+  right: -25%;
+  transform: translateY(-50%);
+}
+/* frequentlyQuestions */
+.frequentlyQuestions{
+  border-bottom: 1px solid var(--boderColor2);
+}
+.frequentlyQuestions .row{
+  justify-content: center;
+}
+.frequentlyQuestions__title{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.frequentlyQuestions__contact{
+  background-color: var(--lightGray);
+  padding: 30px 70px 45px 40px;
+}
+.frequentlyQuestions__list{
+  margin-top: 16px;
+}
+.frequentlyQuestions__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--lightGray);
+  margin-top: 16px;
+  padding-left: 40px;
+}
+.frequentlyQuestions__item i{
+  margin-right: 36px;
+}
+/* footer */
+.footer__top{
+  position: relative;
+}
+footer .row{
+  justify-content: flex-end;
+}
+.downloadApp__img{
+  position: absolute;
+  bottom: -60px;
+}
+.downloadApp{
+  margin: 105px 0 105px 190px;
+}
+.downloadApp__logo{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ggPlay, .appStore{
+  margin: 5px;
+}
+.footer__bottom{
+  background-color: var(--black);
+}
+.footer__logo{
+  margin: 0 auto;
+}
+.footer__list{
+  display: flex;
+  justify-content: center;
+}
+.footer__list ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__item{
+  margin: 20px;
+  text-align: center;
+}
+.footer__link{
+  color: var(--white);
+}
+.footer__society{
+  margin-top: 25px;
+}
+.footer__end{
+  text-align: center;
+  margin-top: 80px;
+  color: #4b4f5d;
+}

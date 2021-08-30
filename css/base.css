@@ -1,0 +1,117 @@
+:root{
+    --colorText: #616368;
+    --colorBtn: #2500f9;
+    --BGcolor:#ffffff;
+    --colorTitle: #002c53;
+    --blue: #2500f9;
+    --blue2: #2563ff;
+    --orange:#f55767;
+    --green:#40975f;
+    --pink:#f55767;
+    --lightBlue:#eaf9ff;
+    --lightYellow:#fff6d3;
+    --lightGreen:#e4ffee;
+    --lightViolet:#f4f4ff;
+    --lightpink:#ffecef;
+    --lightNo:#fdeee4;
+    --colorStar:#ffcc00;
+    --black: #09142e;
+    --gray:#e2eaed;
+    --lightGray: #f5f7fa;
+    --white:#ffffff;
+    --h1h2Color:#3c4460;
+    --yellow:#feaa25;
+    --borderColor:#b9b9b8;
+    --boderColor2:#ebebeb;
+    --width100: 100%;
+}
+html p{
+    color: var(--colorText);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+html a{
+    text-decoration: none;
+    color: var(--colorText);
+    display: block;
+    font-size: 16px;
+    line-height: 2.75;
+}
+html img{
+    display: block;
+    margin: 0 auto;
+}
+html ul{
+    margin: 0;
+    padding: 0;
+}
+html ul li{
+    list-style: none;
+}
+.btn{
+    width: 168px;
+    height: 56px;
+    background-color: var(--colorBtn);
+    border-radius: 30px;
+    color: var(--white);
+    line-height: 56px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 40px 20px 0;
+}
+html h1{
+    font-size: 60px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+html h2{
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+html h3{
+    font-size: 20px;
+    line-height: 2.9;
+}
+html h1, html h2{
+    color: var(--h1h2Color);
+}
+.pinkColor{
+    color: var(--pink);
+}
+.blueColor{
+    color: var(--blue2);
+}
+.greenColor{
+    color: var(--green);
+}
+.bgLightPink{
+    background-color: var(--lightpink);
+}
+.bgLightBlue{
+    background-color: var(--lightBlue);
+}
+.bgLightGreen{
+    background-color: var(--lightGreen);
+}
+.bgLightYellow{
+    background-color: var(--lightYellow);
+}
+.bgLightViolet{
+    background-color: var(--lightViolet);
+}
+.bgLightNo{
+    background-color: var(--lightNo);
+}

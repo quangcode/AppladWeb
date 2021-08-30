@@ -1,0 +1,474 @@
+
+.container{
+    width: 1320px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section1{
+    padding: 100px 0;
+}
+.section2{
+    padding: 100px 0 20px 0;
+}
+.seciton3{
+    padding: 0 0 100px 0;
+}
+.section4{
+    padding: 160px 0;
+}
+.wrapper{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.p-0 {
+    display: none;
+}
+
+.p-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.p-1-8{
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+.p-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.p-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.p-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.p-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+
+.p-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.p-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.p-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.p-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.p-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.p-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+
+.p-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/* BREAKPOINT */
+/* small */
+@media (min-width: 0) and (max-width: 767px) {
+    
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .col{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .m-0 {
+        display: none;
+    }
+    
+    .m-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    
+    .m-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    
+    .m-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .m-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+    .m-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    
+    .m-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .m-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    
+    .m-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    
+    .m-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .m-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    
+    .m-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .header__list{
+        display: none;
+    }
+    html h1{
+        font-size: 30px;
+    }
+    .frequentlyQuestions__contact{
+        padding: 10px;
+    }
+    .frequentlyQuestions__item{
+        padding-left: 10px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 720px;
+        max-width: 100%;
+    }
+    .col{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .t-0 {
+        display: none;
+    }
+    
+    .t-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    
+    .t-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    
+    .t-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .t-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+    .t-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    
+    .t-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .t-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    
+    .t-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    
+    .t-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .t-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    
+    .t-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    
+    .t-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* small and medium */
+@media (min-width: 0) and (max-width: 991px){
+    /* HEADER */
+    .section1{
+        padding: 50px 0;
+    }
+    .section4{
+        padding: 50px 0;
+    }
+    header{
+        top: 35px;
+    }
+    header .container{
+        align-items: unset;
+    }
+    .header__list{
+        display: none;
+    }
+    .header__listMobile{
+        display: block;
+        background-color: var(--orange);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateX(100%);
+        transition: transform 1s linear;
+        z-index: 2;
+      }
+    .header__listMobile.block{
+        transform: translateX(0%);
+    }
+    .header__listMobile .item__link{
+        margin-left: 20px;
+        margin-right: 18vw;
+        color: var(--white);
+    }
+    .overlay{
+        display: none;
+    }
+    .overlay.block{
+        display: block;
+    }
+    .overlay::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(79, 79, 79, 0.3);
+        z-index: 1;
+        animation: overlayBlock 1s linear; 
+    }
+    @keyframes overlayBlock {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .header__btnMobile{
+        display: block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .header__listMobile i{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: var(--white);
+    }
+    /* BEST APP */
+    .bestApp .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    /* btn */
+    .btn{
+        width: 130px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .bestApp__background{
+        background: none;
+    }
+    .besApp__title{
+        margin-top: 100px;
+        padding-left: 20px;
+    }
+    .trustByCompanies .row{
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .bestApp__img img, .trustByCompanies img, .anwesomeApps__img img,.designedAndBuilt__img img,.ultimateFeatreus__img img{
+        width: 60%;
+    }
+    .circle{
+        width: 60px;
+        height: 60px;
+    }
+    .circle img{
+        width: 40px;
+    }
+    html h1{
+        font-size: 32px;
+    }
+    html h2{
+        font-size: 30px;
+    }
+    html h3{
+        font-size: 20px;
+        line-height: 2;
+    }
+    .smartJackpots__row1{
+        margin-bottom: 0;
+      }
+    .smartJackpots h2{
+        padding-right: 0px;
+        border-right: none;
+      }
+    /* designedAndBuilt*/
+    .designedAndBuilt__description{
+        margin-top: 0px;
+    }
+    /* ultimateFeatures__description */
+    .ultimateFeatures__description {
+        padding-left: 15px;
+    }
+    /* meet client */
+    .meetClient img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .meetClient__description{
+        padding: 0;
+    }
+    .meetClient__title{
+        width: 100%;
+    }
+    /* footer */
+    .downloadApp__img{
+        display: none;
+    }
+    .downloadApp{
+        margin: 0;
+    }
+}
+/* large */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .section4{
+        padding: 60px 0;
+    }
+    .section1{
+        padding: 60px 0;
+    }
+    .container{
+        width: 960px;
+        max-width: 100%;
+    }
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    html h1{
+        font-size: 45px;
+    }
+    /* trustByCompanies */
+    .trustByCompanies img{
+        width: 90%;
+    }
+    /* img */
+    .bestApp__img img, .trustByCompanies img, .anwesomeApps__img img,.designedAndBuilt__img img,.ultimateFeatreus__img img{
+        width: 90%;
+    }
+    .designedAndBuilt__description{
+        margin-top: 0;
+    }
+    .ultimateFeatures__description {
+        padding-left: 90px;
+    }
+    /* meet client */
+    .meetClient img{
+        width: 100%;
+    }
+    .meetClient__description{
+        padding-left: 0px;
+      }
+    .downloadApp__img img{
+        width: 100%;
+    }
+    .downloadApp__img{
+        bottom: -42px;
+    }
+    .downloadApp{
+        margin: 30px;
+    }
+}
+
+/*extra large*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .container{
+        width: 1140px;
+        max-width: 100%;
+    }
+}
